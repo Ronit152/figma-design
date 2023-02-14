@@ -221,7 +221,11 @@ header {
     width: 255px;
     padding: 20px;
 }
-
+.namebox2 {
+    width: 460px;
+height: 24px;
+border:none;
+}
 .addr {
     display: flex;
     justify-content: space-between;

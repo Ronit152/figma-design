@@ -238,8 +238,8 @@
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 1030px;
-height: 889px;
+/* width: 1030px;
+height: 889px; */
 left: 60px;
 top: 60px;
 /* background-color:; */
@@ -252,8 +252,8 @@ gap: 37px;
     padding: 0px;
     gap: 698px;
     
-    width: 1030px;
-    height: 104px;
+    /* width: 1030px;
+    height: 104px; */
 }
 .con{
     display: flex;
@@ -305,8 +305,8 @@ border-radius: 8px;
 align-items: flex-end;
 padding: 0px;
 border-bottom: 1px solid rgba(39, 41, 55, 0.12);
-width: 1030px;
-height: 44px;
+/* width: 1030px;
+height: 44px; */
 }
 .tabbar{
     display: flex;
@@ -332,8 +332,8 @@ align-items: flex-start;
 padding: 0px;
 gap: 24px;
 
-width: 1030px;
-height: 476px;
+/* width: 1030px;
+height: 476px; */
 }
 .card{
     box-sizing: border-box;
@@ -476,9 +476,6 @@ height: 24px;
 }
 
 
-
-
-
 .subscribe{
     display: flex;
 flex-direction: row;
@@ -534,8 +531,8 @@ background: rgba(39, 41, 55, 0.12);
     padding: 0px;
     gap: 24px;
     
-    width: 1030px;
-    height: 88px;   
+    /* width: 1030px;
+    height: 88px;    */
 }
 .faq1{
     display: flex;
