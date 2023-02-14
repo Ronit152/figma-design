@@ -1,0 +1,405 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 40px;
+    
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    /* border: 2px solid black; */
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #272937;
+}
+
+header {
+
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+    height: 61px;
+
+}
+
+.T24Semibold {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    letter-spacing: -1px;
+}
+
+.first {
+    position: absolute;
+    width: 82px;
+    height: 32px;
+    padding-left: 72px;
+
+}
+
+.T16Medium {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.6px;
+}
+
+.hlinks {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 440px;
+    height: 24px;
+    left: calc(50% - 440px/2);
+
+}
+
+.link {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.link1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.hIcons {
+    display: flex;
+    align-items: flex-end;
+    /* padding-right:74px; */
+    gap: 32px;
+    position: absolute;
+    width: 136px;
+    height: 24px;
+    right: 72px;
+
+
+}
+
+.heart {
+    left: 6.25%;
+    right: 6.25%;
+    top: 13.37%;
+    bottom: 13.6%;
+}
+
+.cart {
+    left: 0%;
+    right: 6.15%;
+    top: 8.33%;
+    bottom: 4.17%;
+}
+
+.profile {
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+}
+
+#one {
+    width: 100%;
+    height: 1px;
+    background: rgba(39, 41, 55, 0.12);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 1296px;
+    height: 144px;
+}
+
+.t32Semibold {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+
+.breadCrumbs {
+    width: 157px;
+    height: 24px;
+    left: 0px;
+    top: 32px;
+    position: relative;
+}
+
+.second {
+    width: 183px;
+    height: 36px;
+    left: 0px;
+    top:50px;
+    position: relative;
+}
+
+.third {
+    /* width: 55px; */
+    height: 24px;
+    right: 0px;
+    top: 50px;
+    position: relative;
+}
+
+.burgerbar {
+    left: 12.5%;
+    right: 12.5%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    /* border: 1px solid black; */
+    width: 1296px;
+    height: 836px;
+    padding-left: 72px;
+    padding-right: 74px;
+}
+
+.item1 {
+    grid-row: 1/3;
+    width: 306px;
+    height: 755px;
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    width: 282px;
+    height: 61px;
+    /* border: 1px solid black; */
+     display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   align-items: center;
+    
+}
+/* .dropdown{
+    position: relative;
+    display: inline-block;
+} */
+
+.hidd {
+    
+    /* display: none; */
+    height: 184px;
+    width: 282px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    /* border: 1px solid gray */
+}
+.hidd a{
+    display:block;
+}
+
+/* .category:hover+.hidd {
+    visibility: visible;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+
+#two {
+    width: 282px;
+    height: 1px;
+    margin-left: 0px;
+    background: rgba(39, 41, 55, 0.12);
+}
+
+.price {
+    width: 282px;
+    height: 61px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slider{
+   display: flex;
+   flex-direction: column;
+   width: 282px;
+height: 36px;
+}
+
+.values{
+    display: flex;
+    width: 282px;
+height: 24px;
+}
+
+.para{
+    width: 136px;
+    height: 16px;
+    position: relative;
+}
+
+.t12regular{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.3px;
+ }
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 0px; */
+    gap: 16px;
+
+    width: 282px;
+    height: 236px;
+
+}
+
+#clear {
+    box-sizing: border-box;
+    padding: 8px 14px;
+    gap: 8px;
+
+    width: 282px;
+    height: 36px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.35);
+    border-radius: 8px;
+}
+
+.t14regular {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    column-gap: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1px;
+    color:#272937;
+
+}
+
+
+.item2 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 966px;
+    height: 836px;
+    /* border: 1px solid black; */
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.catelog{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+position: relative;
+width: 306px;
+height: 402px;
+/* border: 1px solid gray; */
+}
+
+.image{
+    width: 306px;
+height: 306px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: lightgray;
+/* background: url(dotline.jpg); */
+border-radius: 8px;
+}
+
+.info{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 306px;
+height: 80px;
+}
+
+.t16semibold{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #272937;
+    letter-spacing: -0.6px; 
+}
+.t14semibold{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+color: #272937;
+letter-spacing: -0.1px;
+}
+.top-right{
+    position: absolute;
+    width: 43px;
+height: 24px;
+right: 10px;
+top: 10px;
+
+border-radius: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.t12semibold{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+
+letter-spacing: 0.3px;
+color: #FFFFFF;
+}
